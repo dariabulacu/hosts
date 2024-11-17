@@ -13,3 +13,4 @@ cat /etc/hosts | while read line; do
   ip=$(echo $line |cut -d ' ' f1)
   name=$(echo $line |cut -d ' ' f2)
 ip_verificare( $ip $name "8.8.8.8")
+done
