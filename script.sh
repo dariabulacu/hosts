@@ -11,4 +11,6 @@ cat /etc/hosts | while read line; do
 	fi
 done
 
+echo "Manea Marius"
+
 
